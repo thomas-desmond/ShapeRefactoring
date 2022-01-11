@@ -21,11 +21,7 @@ export function kneazles() {
     return crinusMuto(() => -1, (_n) => cz())
 }
 
-export function expectoPatronum(x, y, obj) {
-    obj.type = 'Point'
-    obj.x = x
-    obj.y = y
-}
+
 
 export function sortingHat(roster) {
     let shape: any = null
