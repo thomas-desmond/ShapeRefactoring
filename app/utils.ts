@@ -2,24 +2,11 @@ import { classify } from "./Classification"
 import { cs, cz } from "./MathHelpers"
 import { asPoint } from "./TypeConstructors"
 
-function crinusMuto(brow, color) {
-    function cc(n?) {
-        if (typeof (n) === 'undefined') {
-            return brow()
-        }
-        return color(n)
-    }
 
-    return cc
-}
 
-export function draconifors(init) {
-    return crinusMuto(() => init, (n) => cs(n + init))
-}
 
-export function kneazles() {
-    return crinusMuto(() => -1, (_n) => cz())
-}
+
+
 
 
 
